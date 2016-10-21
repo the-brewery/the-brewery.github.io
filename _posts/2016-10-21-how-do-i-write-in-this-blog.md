@@ -24,21 +24,22 @@ So, how do I use it then?
 1. Place a file in the `_posts` directory with name pattern: `YEAR-MONTH-DAY-title.md`
 2. Write a [front matter](http://jekyllrb.com/docs/frontmatter/) in the file's header:
 
-    ```yaml
-    ---
-    layout:     post
-    title:      Your title
-    tags:       some-tag another-tag
-    categories: some-category
-    author:     Your Name
-    ---
-    ```
+   ```yaml
+   ---
+   layout:     post
+   title:      Your title
+   tags:       some-tag another-tag
+   categories: some-category
+   author:     Your Name
+   ---
+   ```
+
 3. Publish you stuff with git:
 
-    ```bash
-    git add _post/your-post.md
-    git commit -m 'Post about something'
-    git push
-    ```
+   ```bash
+   git add _post/your-post.md
+   git commit -m 'Post about something'
+   git push
+   ```
 
 4. If unsure, [read the docs](http://jekyllrb.com/docs/posts/).

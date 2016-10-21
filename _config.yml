@@ -5,8 +5,12 @@ url: https://the-brewery.github.io
 baseurl: 
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalinks: pretty
 paginate: 5
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude: [vendor]
