@@ -1,10 +1,5 @@
----
-layout:     post
-title:      How do I write in this blog?
-tags:       blog jekyll github github-pages ruby markdown
-categories: howtos
-author:     Olof Montin
----
+The Brewer Tech Blog
+====================
 
 This blog is a static generated website. It's simply a set of markdown files that automagicly turns into a blog when deployed.
 
