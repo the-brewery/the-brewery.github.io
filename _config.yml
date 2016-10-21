@@ -1,0 +1,10 @@
+title: The Brewery
+email: info@thebrewery.se
+description: "This is The Brewery's tech blog and collection of how-tos."
+url: http://localhost:4000
+baseurl: 
+
+markdown: redcarpet
+highlighter: pygments
+permalinks: pretty
+paginate: 5
